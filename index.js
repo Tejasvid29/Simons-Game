@@ -87,11 +87,12 @@ $(document).keydown(function() {
             $("body").removeClass("game-over");
         }, 200)
         $("h1").text("Game Over, Press Any Key to Restart")
+           gamePattern= [];
+    level= 0;
         $(document).click(startOver)
       }
  } 
 function startOver() { 
-    gamePattern= [];
-    level= 0;
+   
     started= false;
  }
